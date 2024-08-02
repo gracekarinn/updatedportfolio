@@ -2,4 +2,37 @@
 @tailwind components;
 @tailwind utilities;
 
-  
+.main-content {
+  position: relative;
+  min-height: calc(100vh - [header height] - [navbar height]);
+}
+
+@keyframes slideOutToLeft {
+  from {
+    transform: translateX(0);
+    opacity: 1;
+  }
+  to {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+}
+
+@keyframes slideInFromRight {
+  from {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+.page-transition-exit {
+  animation: slideOutToLeft 0.5s forwards;
+}
+
+.page-transition-enter {
+  animation: slideInFromRight 0.5s forwards;
+}
