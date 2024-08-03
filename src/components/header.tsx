@@ -10,7 +10,7 @@ const Header = () => {
   };
 
   return (
-    <header>
+    <header className="container bg-white bg-opacity-30 fixed top-0 left-0 right-0 z-50">
       <div className="container mx-auto my-3">
         <div className="flex justify-between items-center">
           <a href="#" className="text-2xl px-2 font-bold text-black">
