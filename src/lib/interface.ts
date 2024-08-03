@@ -3,3 +3,8 @@ export interface TimelineItemType {
   title: string;
   description: string;
 }
+
+export interface Skill {
+  title: string;
+  percent: number;
+}
