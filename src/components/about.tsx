@@ -7,7 +7,7 @@ import { deskripsi } from "@/lib/data";
 
 const About = () => {
   return (
-    <section id="home">
+    <section id="about">
       <div className="flex mx-auto px-4">
         <div className="flex flex-col lg:flex-row mx-auto items-center">
           <div>
