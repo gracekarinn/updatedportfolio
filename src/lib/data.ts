@@ -5,17 +5,36 @@ import { IoLanguage } from "react-icons/io5";
 import { MdContactEmergency } from "react-icons/md";
 import { TimelineItemType } from "./interface";
 import { Skill } from "./interface";
+import { FaInstagram, FaLinkedin, FaGithub } from "react-icons/fa";
 
 export const navLinks = [
   { href: "#about", icon: SiAboutdotme, name: "About" },
-  { href: "#education", icon: MdOutlineCastForEducation },
-  { href: "#experience", icon: MdOutlineWorkHistory },
-  { href: "#language", icon: IoLanguage },
-  { href: "#contact", icon: MdContactEmergency },
+  { href: "#education", icon: MdOutlineCastForEducation, name: "Education" },
+  { href: "#experience", icon: MdOutlineWorkHistory, name: "Project" },
+  { href: "#language", icon: IoLanguage, name: "Skills" },
+  { href: "#contact", icon: MdContactEmergency, name: "Contact" },
 ];
 
 export const deskripsi =
   "Coffee lover, rubik's cube enthusiast, and coding explorer. Welcome, Fellow Coders! Let's connect and collaborate ^__^";
+
+export const socialLinks = [
+  {
+    name: "Instagram",
+    url: "https://www.instagram.com/gracekarinn",
+    icon: FaInstagram,
+  },
+  {
+    name: "LinkedIn",
+    url: "https://www.linkedin.com/in/gracekarinn",
+    icon: FaLinkedin,
+  },
+  {
+    name: "Github",
+    url: "https://github.com/gracekarinn",
+    icon: FaGithub,
+  },
+];
 
 export const timelineData: TimelineItemType[] = [
   {
