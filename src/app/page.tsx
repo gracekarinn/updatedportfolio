@@ -7,8 +7,8 @@ import Project from "@/components/project";
 export default function Home() {
   return (
     <div className="snap-y snap-mandatory h-screen overflow-y-scroll">
-      <section className="snap-start min-h-screen flex flex-col justify-center px-4 py-16 md:py-0">
-        <div className="relative z-10 w-full max-w-4xl mx-auto mt-10">
+      <section className="snap-start min-h-screen flex flex-col justify-center px-4">
+        <div className="relative z-10 w-full max-w-4xl mx-auto">
           <About />
         </div>
       </section>
