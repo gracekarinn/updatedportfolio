@@ -8,11 +8,11 @@ const Header = () => {
   const { theme, toggleTheme } = useTheme();
 
   return (
-    <header className="container fixed top-0 left-0 right-0 z-50 bg-white bg-opacity-30 dark:bg-gray-800 dark:bg-opacity-30 transition-colors duration-300">
-      <div className="container mx-auto my-3">
+    <header className="container mx-auto fixed top-0 left-0 right-0 z-50 bg-white min-w-full bg-opacity-30 dark:bg-gray-800 dark:bg-opacity-30 transition-colors duration-300">
+      <div className="container mx-auto my-3 ">
         <div className="flex justify-between items-center">
           <a
-            href="#"
+            href="#about"
             className="text-2xl px-2 font-bold text-black dark:text-white transition-colors duration-300"
           >
             Grace <span className="text-purple-400">Karin</span>

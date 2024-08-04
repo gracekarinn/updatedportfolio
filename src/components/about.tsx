@@ -52,7 +52,7 @@ const About = () => {
                   rel="noopener noreferrer"
                   className="text-gray-600 hover:text-gray-800 dark:text-gray-300 dark:hover:text-white transition-colors duration-300"
                 >
-                  <link.icon className="w-6 h-6" />
+                  <link.icon className="w-[50px] h-[50px]" />
                 </a>
               ))}
             </div>
