@@ -9,7 +9,7 @@ const Bahasa: React.FC = () => {
   const circumference = 2 * Math.PI * 100;
 
   return (
-    <main className="min-h-screen  p-4 flex items-center justify-center">
+    <main className="min-h-screen p-4 flex items-center justify-center">
       <motion.section
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
@@ -66,11 +66,11 @@ const Bahasa: React.FC = () => {
                     (currentSkill.percent / 100) * circumference,
                 }}
                 transition={{ duration: 0.5, ease: "easeInOut" }}
-                className="text-black"
+                className="text-violet-400"
               />
             </svg>
             <motion.span
-              className="absolute inset-0 flex items-center justify-center text-3xl sm:text-4xl md:text-5xl font-bold text-black"
+              className="absolute inset-0 flex items-center justify-center text-3xl sm:text-4xl md:text-5xl font-bold text-sky-950"
               key={currentSkill.percent}
               initial={{ opacity: 0, scale: 0.5 }}
               animate={{ opacity: 1, scale: 1 }}
