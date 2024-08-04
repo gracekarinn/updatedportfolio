@@ -8,7 +8,7 @@ export default function Home() {
   return (
     <div className="snap-y snap-mandatory h-screen overflow-y-scroll">
       <section className="snap-start min-h-screen flex flex-col justify-center px-4">
-        <div className="relative z-10 w-full max-w-4xl mx-auto">
+        <div className="relative w-full max-w-4xl mx-auto py-20 pb-32">
           <About />
         </div>
       </section>
@@ -17,8 +17,8 @@ export default function Home() {
           <Education />
         </div>
       </section>
-      <section className="snap-start h-screen overflow-y-auto flex items-center justify-center px-4">
-        <div className="w-full max-w-4xl mx-auto py-16 lg:py-20 lg:pb-32">
+      <section className="snap-start min-h-screen overflow-y-auto flex items-center justify-center px-4">
+        <div className="w-full max-w-4xl mx-auto py-20 pb-32">
           <Project />
         </div>
       </section>
