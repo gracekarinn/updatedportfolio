@@ -17,8 +17,8 @@ export default function Home() {
           <Education />
         </div>
       </section>
-      <section className="snap-start min-h-screen flex flex-col justify-center px-4 py-16 md:py-0">
-        <div className="w-full max-w-4xl mx-auto">
+      <section className="snap-start h-screen overflow-y-auto flex items-center justify-center px-4">
+        <div className="w-full max-w-4xl mx-auto py-16 lg:py-20 lg:pb-32">
           <Project />
         </div>
       </section>
