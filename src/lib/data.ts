@@ -16,7 +16,7 @@ export const navLinks = [
 ];
 
 export const deskripsi =
-  "Coffee lover, rubik's cube enthusiast, and coding explorer. Welcome, Fellow Coders! Let's connect and collaborate ^__^";
+  "Coffee lover, rubik's cube enthusiast, and coding explorer. Welcome, Fellow Coders! Let's connect and collaborate";
 
 export const socialLinks = [
   {
