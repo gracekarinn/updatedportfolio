@@ -56,11 +56,10 @@ export const timelineData: TimelineItemType[] = [
 
 export const projectsData = [
   {
-    title: "SBF Project",
-    description:
-      "I contributed to the development of a website for a BEM project.",
-    tags: ["Next.js", "Tailwind"],
-    imageUrl: "/sbf.png",
+    title: "Hackathon Project",
+    description: "A simple art e-commerce, planned to use crypto as payment.",
+    tags: ["Typescript", "Tailwind", "Firebase"],
+    imageUrl: "/karyakita.png",
   },
   {
     title: "SBF Project",
@@ -70,18 +69,22 @@ export const projectsData = [
     imageUrl: "/sbf.png",
   },
   {
-    title: "SBF Project",
-    description:
-      "I contributed to the development of a website for a BEM project.",
-    tags: ["Next.js", "Tailwind"],
-    imageUrl: "/sbf.png",
+    title: "ToDo Project",
+    description: "Made a simple website for a BEM project.",
+    tags: ["Next.js", "Tailwind", "NestJs", "PostgreSQL", "Prisma", "Firebase"],
+    imageUrl: "/todo.png",
   },
   {
-    title: "SBF Project",
-    description:
-      "I contributed to the development of a website for a BEM project.",
+    title: "OKK UI 2024",
+    description: "I contributed to the front-end development of OKK UI web",
+    tags: ["Typescript", "Tailwind"],
+    imageUrl: "/okk.png",
+  },
+  {
+    title: "Open House Fasilkom UI 2024",
+    description: "I contributed to the development of OH 2024 web",
     tags: ["Next.js", "Tailwind"],
-    imageUrl: "/sbf.png",
+    imageUrl: "/oh.png",
   },
 ] as const;
 
