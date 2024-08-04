@@ -76,3 +76,9 @@ export const skills: Skill[] = [
   { title: "Python", percent: 75 },
   { title: "Java", percent: 70 },
 ];
+
+export interface FormData {
+  name: string;
+  email: string;
+  message: string;
+}
