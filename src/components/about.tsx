@@ -1,9 +1,8 @@
 "use client";
-
 import React from "react";
 import { TypeAnimation } from "react-type-animation";
 import Image from "next/image";
-import { deskripsi } from "@/lib/data";
+import { deskripsi, socialLinks } from "@/lib/data";
 
 const About = () => {
   return (
@@ -38,16 +37,24 @@ const About = () => {
                 speed={50}
                 wrapper="span"
                 repeat={Infinity}
-                className="font-bold text-xl md:text-2xl lg:text-3xl text-rose-500"
+                className="font-bold text-xl md:text-2xl lg:text-3xl text-rose-500 dark:text-rose-400"
               />
             </div>
-            <p className="mb-8 justify-center leading-9 max-w-lg mx-auto lg:mx-0 text-gray-600">
+            <p className="mb-3 justify-center leading-9 max-w-lg mx-auto lg:mx-0 text-gray-600 dark:text-white">
               {deskripsi}
             </p>
-            <div className="flex justify-center lg:justify-start">
-              <button className="bg-blue-500 text-white px-6 py-3 rounded-full font-semibold hover:bg-blue-600 transition duration-300">
-                Contact Me!
-              </button>
+            <div className="flex justify-center lg:justify-start space-x-4">
+              {socialLinks.map((link, index) => (
+                <a
+                  key={index}
+                  href={link.url}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-gray-600 hover:text-gray-800 dark:text-gray-300 dark:hover:text-white transition-colors duration-300"
+                >
+                  <link.icon className="w-6 h-6" />
+                </a>
+              ))}
             </div>
           </div>
         </div>
